@@ -1,0 +1,413 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://i.postimg.cc/hvC92V3L/mick-haupt-lud-N00lw7ks-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.headingDiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Diplomata SC', cursive;
+    background: #000000;
+    background: linear-gradient(to left, #000000 0%, #031780 20%, #00FF00 34%, #FFFFFF 50%, #FFF71C 74%, #FF0000 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/*title flags*/
+
+.spanish,
+.russian,
+.japanese,
+.english,
+.italian,
+.arabic {
+    border: solid black 1px;
+    display: flex;
+    flex-grow: 1;
+    height: 150px;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardTextSpanish,
+.cardTitleSpanish,
+.cardTextRussian,
+.cardTitleRussian,
+.cardTextJapanese,
+.cardTitleJapanese,
+.cardTextEnglish,
+.cardTitleEnglish,
+.cardTextItalian,
+.cardTitleItalian,
+.cardTextArabic,
+.cardTitleArabic {
+    font-size: 35px;
+    text-align: center;
+}
+
+.spanishList,
+.russianList,
+.japaneseList,
+.englishList,
+.italianList,
+.arabicList {
+    font-size: 25px;
+}
+
+.spanishButton,
+.russianButton,
+.japaneseButton,
+.englishButton,
+.italianButton,
+.arabicButton {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spanish {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(240, 246, 0, 1) 30%, rgba(240, 246, 0, 1) 70%, rgba(255, 0, 0, 1) 70%);
+    padding-right: 20px;
+}
+
+.spanishButton {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-left: 78px;
+    padding-right: 78px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(240, 246, 0, 1) 30%, rgba(240, 246, 0, 1) 70%, rgba(255, 0, 0, 1) 70%);
+}
+
+.spainishClose {
+    border-radius: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 30px;
+    position: relative;
+    cursor: pointer;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(240, 246, 0, 1) 30%, rgba(240, 246, 0, 1) 70%, rgba(255, 0, 0, 1) 70%);
+}
+
+.frameRussian,
+.frameJapanese,
+.frameEnglish,
+.frameItalian,
+.frameArabic {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.frameSpanish {
+    display: flex;
+    justify-content: space-around;
+}
+
+.videoSpanish {
+    background: rgb(251, 249, 63);
+    background: radial-gradient(circle, rgba(251, 249, 63, 1) 0%, rgba(255, 28, 28, 1) 100%);
+}
+
+.frameSpanish,
+.videoSpanish,
+.contentSpanish {
+    flex-basis: 800px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.mapSpain,
+.picSpain,
+.picSpain1 {
+    width: 800px;
+    height: 687px;
+}
+
+.russian {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(0, 9, 246, 1) 30%, rgba(0, 9, 246, 1) 70%, rgba(255, 255, 255, 1) 70%);
+}
+
+.russianButton {
+    padding-top: 55px;
+    padding-bottom: 55px;
+    padding-right: 63px;
+    padding-left: 63px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(0, 9, 246, 1) 30%, rgba(0, 9, 246, 1) 70%, rgba(255, 255, 255, 1) 70%);
+}
+
+.russianClose {
+    border-radius: 10px;
+    cursor: pointer;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 30px;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(0deg, rgba(255, 0, 0, 1) 30%, rgba(0, 9, 246, 1) 30%, rgba(0, 9, 246, 1) 70%, rgba(255, 255, 255, 1) 70%);
+}
+
+.videoRussian {
+    background: rgb(249, 249, 249);
+    background: radial-gradient(circle, rgba(249, 249, 249, 1) 0%, rgba(33, 63, 255, 1) 100%);
+}
+
+.frameRussian,
+.videoRussian,
+.contentRussian {
+    flex-basis: 800px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.mapRussian,
+.picRussian,
+.picRussian1 {
+    width: 800px;
+    height: 610px;
+}
+
+.japanese {
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 14%);
+}
+
+.japaneseButton {
+    padding: 50px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 14%);
+}
+
+.japaneseClose {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 14%, rgba(255, 255, 255, 1) 14%);
+}
+
+.videoJapanese {
+    background: rgb(255, 0, 0);
+    background: radial-gradient(circle, rgba(255, 0, 0, 1) 0%, rgba(255, 255, 255, 1) 26%);
+}
+
+.frameJapanese,
+.videoJapanese,
+.contentJapanese {
+    flex-basis: 800px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.mapJapanese,
+.picJapanese,
+.picJapanese1 {
+    width: 800px;
+    height: 629px;
+}
+
+.english {
+    background: rgb(255, 8, 8);
+    background: linear-gradient(124deg, rgba(255, 8, 8, 1) 45%, rgba(255, 255, 255, 1) 45%, rgba(241, 241, 241, 1) 65%, rgba(0, 57, 241, 1) 65%);
+}
+
+.englishButton {
+    padding: 50px;
+    padding-right: 130px;
+    padding-left: 130px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 8, 8);
+    background: linear-gradient(124deg, rgba(255, 8, 8, 1) 45%, rgba(255, 255, 255, 1) 45%, rgba(241, 241, 241, 1) 65%, rgba(0, 57, 241, 1) 65%);
+}
+
+.englishClose {
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 8, 8);
+    background: linear-gradient(124deg, rgba(255, 8, 8, 1) 45%, rgba(255, 255, 255, 1) 45%, rgba(241, 241, 241, 1) 65%, rgba(0, 57, 241, 1) 65%);
+}
+
+.videoEnglish {
+    background: rgb(255, 8, 8);
+    background: linear-gradient(124deg, rgba(255, 8, 8, 1) 0%, rgba(255, 255, 255, 1) 39%, rgba(255, 255, 255, 1) 63%, rgba(2, 10, 113, 1) 100%);
+}
+
+.frameEnglish,
+.videoEnglish,
+.contentEnglish {
+    flex-basis: 800px;
+    height: fit-content;
+    border-radius: 10px;
+}
+
+.mapEnglish,
+.picEnglish,
+.picEnglish1,
+.picEnglish2,
+.picEnglish3,
+.picEnglish4 {
+    width: 800px;
+    height: 630px;
+}
+
+.italian {
+    background: rgb(255, 8, 8);
+    background: linear-gradient(270deg, rgba(255, 8, 8, 1) 38%, rgba(255, 255, 255, 1) 38%, rgba(255, 255, 255, 1) 68%, rgba(33, 117, 1, 1) 68%);
+}
+
+.italianButton {
+    padding: 50px;
+    padding-right: 195px;
+    padding-left: 195px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 8, 8);
+    background: linear-gradient(270deg, rgba(255, 8, 8, 1) 38%, rgba(255, 255, 255, 1) 38%, rgba(255, 255, 255, 1) 68%, rgba(33, 117, 1, 1) 68%);
+}
+
+.italianClose {
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+    font-size: 30px;
+    margin-bottom: -25px;
+    margin-left: -40px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 8, 8);
+    background: linear-gradient(270deg, rgba(255, 8, 8, 1) 38%, rgba(255, 255, 255, 1) 38%, rgba(255, 255, 255, 1) 68%, rgba(33, 117, 1, 1) 68%);
+}
+
+.videoItalian {
+    border-radius: 10px;
+    background: rgb(255, 8, 8);
+    background: linear-gradient(90deg, rgba(255, 8, 8, 1) 0%, rgba(255, 255, 255, 1) 45%, rgba(255, 255, 255, 1) 62%, rgba(33, 117, 1, 1) 100%);
+}
+
+.frameItalian,
+.videoItalian,
+.contentItalian {
+    flex-basis: 800px;
+    height: fit-content;
+}
+
+.mapItalian,
+.picItalian,
+.picItalian1,
+.picItalian2 {
+    width: 800px;
+    height: 642px;
+}
+
+.arabic {
+    background: rgb(255, 0, 0);
+    background: linear-gradient(169deg, rgba(255, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 41%, rgba(255, 255, 255, 1) 43%, rgba(255, 255, 255, 1) 70%, rgba(14, 134, 0, 1) 72%);
+}
+
+.spanArabic {
+    color: gray;
+}
+
+.arabicButton {
+    padding: 50px;
+    padding-right: 215px;
+    padding-left: 215px;
+    border-radius: 10px;
+    font-size: 25px;
+    cursor: pointer;
+    position: relative;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(169deg, rgba(255, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 41%, rgba(255, 255, 255, 1) 43%, rgba(255, 255, 255, 1) 70%, rgba(14, 134, 0, 1) 72%);
+}
+
+.arabicClose {
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-right: 159px;
+    padding-left: 159px;
+    font-size: 30px;
+    margin-bottom: -25px;
+    margin-left: -40px;
+    cursor: pointer;
+    position: relative;
+    color: gray;
+    background: rgb(255, 0, 0);
+    background: linear-gradient(169deg, rgba(255, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 15%, rgba(0, 0, 0, 1) 41%, rgba(255, 255, 255, 1) 43%, rgba(255, 255, 255, 1) 70%, rgba(14, 134, 0, 1) 72%);
+}
+
+.videoArabic {
+    border-radius: 10px;
+    background: rgb(254, 5, 5);
+    background: linear-gradient(167deg, rgba(254, 5, 5, 1) 0%, rgba(0, 0, 0, 1) 16%, rgba(255, 255, 255, 1) 37%, rgba(255, 255, 255, 1) 58%, rgba(19, 113, 2, 1) 100%);
+}
+
+.frameArabic,
+.videoArabic,
+.contentArabic {
+    flex-basis: 800px;
+    height: fit-content;
+}
+
+.mapArabic,
+.picArabic,
+.picArabic1,
+.picArabic2,
+.picArabic3,
+.picArabic4 {
+    width: 800px;
+    height: 611px;
+}
